@@ -1,0 +1,28 @@
+body{
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+body.dark-mode{
+    background-color: #333;
+    color: #f0f0f0;
+}
+body.dark-mode button{
+    background-color: #555;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.hidden{
+    display: none;
+
+}
